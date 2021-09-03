@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f98c9ed341.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/Logo/favicon.png" />
+    <title>Les Petits Plats | Accueil</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo/logo.png" alt="Logo du site">
+    </header>
+
+    <main>
+        <section class="search">
+            <div class="search__bar">
+                <input type="text" name="searchBar" id="searchBar" placeholder="Rechercher un ingrédient, appareil, ustensiles ou une recette">
+                <i class="fas fa-search"></i>
+            </div>
+
+            <div class="search__tags">
+                <p><span class="search__tags__name">Mousse au chocolat</span><i class="far fa-times-circle"></i></p>
+                <p><span class="search__tags__name">Coco</span><i class="far fa-times-circle"></i></p>
+                <p><span class="search__tags__name">Citron</span><i class="far fa-times-circle"></i></p>
+            </div>
+
+            <div class="search__options">
+                <div class="search__options--ingredients">
+                    <button id="ingredients">
+                        <span>Ingrédients</span><i class="fas fa-chevron-down fa-lg"></i>
+                    </button>
+                </div>
+                <div class="search__options--appliances">
+                    <button id="appliances">
+                        <span>Appareil</span><i class="fas fa-chevron-down fa-lg"></i>
+                    </button>
+                </div>
+                <div class="search__options--utensils">
+                    <button id="utensils">
+                        <span>Ustensiles</span><i class="fas fa-chevron-down fa-lg"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="recipies" id="recipies"></section>
+    </main>
+    <script src="scripts/main.js" type="module"></script>
+</body>
+
+</html>
