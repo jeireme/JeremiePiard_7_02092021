@@ -31,7 +31,7 @@ export default class Medias {
                     <div class="recipe__informations__ingredients__list">
                         ${setIngredients(this.ingredients)}
                     </div>
-                    <div class="recipe__informations__ingredients__text${isNameTakingTwoLines(this.name)}">
+                    <div class="recipe__informations__ingredients__text${isTitleTakingTwoLines(this.name)}">
                         <p>${this.description}</p>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ function setIngredients(ingredients) {
     return html;
 }
 
-function isNameTakingTwoLines(name) {
+function isTitleTakingTwoLines(name) {
     if (name.length > 28) return ' recipe__informations__ingredients__text--shorter';
     else return '';
 }
