@@ -151,7 +151,6 @@ header img {
   justify-content: space-between;
   font-size: 0.8em;
   font-weight: bolder;
-  max-height: 135px;
 }
 .recipe__informations__ingredients__list {
   width: 50%;
@@ -161,11 +160,17 @@ header img {
 }
 .recipe__informations__ingredients__text {
   width: 50%;
+  height: 135px;
+  text-align: justify;
   overflow: hidden;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 7;
+  -webkit-line-clamp: 9;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+}
+.recipe__informations__ingredients__text--shorter {
+  height: 105px;
+  -webkit-line-clamp: 7;
 }
 .recipe__informations__ingredients__text p {
   margin: 0px;

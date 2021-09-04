@@ -122,7 +122,6 @@ header {
     &__header {
       @include flexRowBetween;
       font-size: 1.3em;
-
       span {
         margin-left: 7px;
         font-weight: bolder;
@@ -140,7 +139,6 @@ header {
       @include flexRowBetween;
       font-size: 0.8em;
       font-weight: bolder;
-      max-height: 135px;
       &__list {
         width: 50%;
         p {
@@ -149,11 +147,17 @@ header {
       }
       &__text {
         width: 50%;
+        height: 135px;
+        text-align: justify;
         overflow: hidden;
         text-overflow: ellipsis;
-        -webkit-line-clamp: 7;
+        -webkit-line-clamp: 9;
         display: -webkit-box;
         -webkit-box-orient: vertical;
+        &--shorter {
+          height: 105px;
+          -webkit-line-clamp: 7;
+        }
         p {
           margin: 0px;
         }
