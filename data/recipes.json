@@ -29,7 +29,7 @@
                 }
             ],
             "time": 10,
-            "description": "Mettre les glaçons à votre goût dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée",
+            "description": "Mettre les glaçons à votre goût dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée.",
             "appliance": "Blender",
             "ustensils": ["cuillère à Soupe", "verres", "presse citron"]
         },
@@ -65,7 +65,7 @@
                 }
             ],
             "time": 60,
-            "description": "Découper le thon en dés, mettre dans un plat et recouvrir de jus de citron vert (mieux vaut prendre un plat large et peu profond). Laisser reposer au réfrigérateur au moins 2 heures. Si possible préparer le soir pour le lendemain. Après avoir laissé mariner le poisson, couper le concombre en fines rondelles sans la peau et les tomates en prenant soin de retirer les pépins. Raper la carotte. Ajouter les légumes aux poissons avec le citron cette fois-ci dans un saladier. Ajouter le lait de coco. Pour ajouter un peu plus de saveur vous pouvez ajouter 1 à 2 cuillères à soupe de crème de coco",
+            "description": "Découper le thon en dés, mettre dans un plat et recouvrir de jus de citron vert (mieux vaut prendre un plat large et peu profond). Laisser reposer au réfrigérateur au moins 2 heures. Si possible préparer le soir pour le lendemain. Après avoir laissé mariner le poisson, couper le concombre en fines rondelles sans la peau et les tomates en prenant soin de retirer les pépins. Raper la carotte. Ajouter les légumes aux poissons avec le citron cette fois-ci dans un saladier. Ajouter le lait de coco. Pour ajouter un peu plus de saveur vous pouvez ajouter 1 à 2 cuillères à soupe de crème de coco.",
             "appliance": "Saladier",
             "ustensils": ["presse citron"]
         }, {
@@ -99,7 +99,7 @@
                 }
             ],
             "time": 80,
-            "description": "Découper le poulet en morceaux, les faire dorer dans une cocotte avec de l'huile d'olive. Saler et poivrer. Une fois doré, laisser cuire en ajoutant de l'eau. Au bout de 30 minutes, ajouter le coulis de tomate, le lait de coco ainsi que le poivron et l'oignon découpés en morceaux. Laisser cuire 30 minutes de plus. Servir avec du riz",
+            "description": "Découper le poulet en morceaux, les faire dorer dans une cocotte avec de l'huile d'olive. Saler et poivrer. Une fois doré, laisser cuire en ajoutant de l'eau. Au bout de 30 minutes, ajouter le coulis de tomate, le lait de coco ainsi que le poivron et l'oignon découpés en morceaux. Laisser cuire 30 minutes de plus. Servir avec du riz.",
             "appliance": "Cocotte",
             "ustensils": ["couteau"]
         }, {
@@ -173,7 +173,7 @@
                 }
             ],
             "time": 45,
-            "description": "Etaler la pâte feuilletée aux dimensions du moule, étaler la moutarde sur la pâte feuilletée, ajouter le thon. Découper les tomates en rondelles et les poser sur le poisson, ajouter un peu de crème fraiche sur toute la tarte et recouvrir de gruyère râpé. Cuire au four 30 minutes",
+            "description": "Etaler la pâte feuilletée aux dimensions du moule, étaler la moutarde sur la pâte feuilletée, ajouter le thon. Découper les tomates en rondelles et les poser sur le poisson, ajouter un peu de crème fraiche sur toute la tarte et recouvrir de gruyère râpé. Cuire au four 30 minutes.",
             "appliance": "Four",
             "ustensils": ["moule à tarte", "râpe à fromage", "couteau"]
         },
@@ -211,7 +211,7 @@
                 }
             ],
             "time": 50,
-            "description": "Commencer par mélanger les oeufs, le sucre et le sucre vanillé dans un saladier. Découper les pommes en tranches, ajouter la crème fraiche aux oeufs. Une fois que tout est prêt, étaler la tarte dans le moule. Ne pas oublier de piquer le fond avec une fourchette avant de depositionner les pommes sur la tarte. Pour terminer, verser la préparation à base d'oeufs et de crême fraiche. Laisser cuire au four pendant 30 minutes",
+            "description": "Commencer par mélanger les oeufs, le sucre et le sucre vanillé dans un saladier. Découper les pommes en tranches, ajouter la crème fraiche aux oeufs. Une fois que tout est prêt, étaler la tarte dans le moule. Ne pas oublier de piquer le fond avec une fourchette avant de depositionner les pommes sur la tarte. Pour terminer, verser la préparation à base d'oeufs et de crême fraiche. Laisser cuire au four pendant 30 minutes.",
             "appliance": "Four",
             "ustensils": ["moule à tarte", "saladier", "fourchette"]
         }, {
@@ -1049,7 +1049,7 @@
                 }
             ],
             "time": 60,
-            "description": "Découper les carottes et les pommes de terre en cubes, puis faites-les revenir dans du beurre. À côté, faire dorer les lardons et ajouter un grand verre d'eau. Cuire les petit pois et les haricots verts. Ajouter le sel, le poivre, le thyms et le laurier",
+            "description": "Découper les carottes et les pommes de terre en cubes, puis faites-les revenir dans du beurre. À côté, faire dorer les lardons et ajouter un grand verre d'eau. Cuire les petit pois et les haricots verts. Ajouter le sel, le poivre, le thyms et le laurier.",
             "appliance": "Poële",
             "ustensils": ["Couteau", "économe"]
         },
