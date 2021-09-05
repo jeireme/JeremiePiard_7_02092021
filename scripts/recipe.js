@@ -55,7 +55,7 @@ function setIngredients(ingredients) {
 
     for (const ingredient of ingredients) {
         html += '<p>' + ingredient.ingredient;
-        if (ingredient.quantity) html += ' : ' + ingredient.quantity; // ! faire attention à "coco" ne comporte pas trop de "oooo"
+        if (ingredient.quantity) html += ' : ' + ingredient.quantity;
         if (ingredient.unit) html += '' + ingredient.unit;
         html += '</p>';
     }

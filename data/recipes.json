@@ -29,7 +29,7 @@
                 }
             ],
             "time": 10,
-            "description": "Mettre les glaçons à votre goût dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée.",
+            "description": "Mettre les glaçons dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée.",
             "appliance": "Blender",
             "ustensils": ["cuillère à Soupe", "verres", "presse citron"]
         },
@@ -38,7 +38,7 @@
             "name": "Poisson Cru à la tahitienne",
             "servings": 2,
             "ingredients": [{
-                    "ingredient": "Thon Rouge (ou blanc)",
+                    "ingredient": "Thon rouge (ou blanc)",
                     "quantity": 200,
                     "unit": "g"
                 },
@@ -173,7 +173,7 @@
                 }
             ],
             "time": 45,
-            "description": "Etaler la pâte feuilletée aux dimensions du moule, étaler la moutarde sur la pâte feuilletée, ajouter le thon. Découper les tomates en rondelles et les poser sur le poisson, ajouter un peu de crème fraiche sur toute la tarte et recouvrir de gruyère râpé. Cuire au four 30 minutes.",
+            "description": "Étaler la pâte feuilletée aux dimensions du moule, étaler la moutarde sur la pâte feuilletée, ajouter le thon. Découper les tomates en rondelles et les poser sur le poisson, ajouter un peu de crème fraiche sur toute la tarte et recouvrir de gruyère râpé. Cuire au four 30 minutes.",
             "appliance": "Four",
             "ustensils": ["moule à tarte", "râpe à fromage", "couteau"]
         },
@@ -243,7 +243,7 @@
                 }
             ],
             "time": 50,
-            "description": "Etaler la pâte dans les moules à tartelette. Faire cuire la pâte 30 minutes. Découper le chocolat en morceau et le faire chauffer, y ajouter la crême liquide, ajouter le beurre et remuer jusqu'à avoir une pâte homogène. Verser la pâte sur les tartelettes. Couper les fraises en 2 et les positionner sur les tartelettes.",
+            "description": "Étaler la pâte dans les moules à tartelette. Faire cuire la pâte 30 minutes. Découper le chocolat en morceau et le faire chauffer, y ajouter la crême liquide, ajouter le beurre et remuer jusqu'à avoir une pâte homogène. Verser la pâte sur les tartelettes. Couper les fraises en 2 et les positionner sur les tartelettes.",
             "appliance": "Four",
             "ustensils": ["moule à tartelettes (6)", "casserolle"]
         }, {

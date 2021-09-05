@@ -174,4 +174,18 @@ header img {
 }
 .recipe__informations__ingredients__text p {
   margin: 0px;
+}
+
+#message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+  font-size: 1.4em;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+#message span {
+  color: #ed6454;
 }/*# sourceMappingURL=style.css.map */

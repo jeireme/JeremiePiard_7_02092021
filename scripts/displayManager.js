@@ -1,7 +1,10 @@
 import Recipe from './recipe.js';
 
+const recipiesContainer = document.getElementById("recipies");
+const searchBar = document.getElementById("searchBar");
+const message = document.getElementById("message");
+
 let recipies = [];
-let searchBar = document.getElementById("searchBar");
 let searchReg = new RegExp(/[a-zA-Z]{3,}/);
 
 export default class DisplayManager {
@@ -27,11 +30,10 @@ function onSearch(event) {
     if (searchReg.test(event.target.value)) {
         for (let recipe of recipies) {
             if (!recipe.name.toLowerCase().includes(event.target.value.toLowerCase())) {
-                // console.log("recipe.name = " + recipe.name);
                 recipe.removeChild();
             }
         }
     }
 
-
+    recipiesContainer.hasChildNodes() ? message.style.display = "none" : message.style.display = "flex";
 }
