@@ -3,7 +3,7 @@
 
 body {
   max-width: 1300px;
-  min-height: 1000px;
+  min-height: 1200px;
   margin: auto;
   font-family: "Lato", sans-serif;
 }
@@ -164,5 +164,17 @@ header {
         }
       }
     }
+  }
+}
+
+#message {
+  @include flexColumnCenter;
+  display: none;
+  font-size: 1.4em;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  span {
+    color: #ed6454;
   }
 }

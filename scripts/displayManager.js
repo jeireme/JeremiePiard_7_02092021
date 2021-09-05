@@ -1,8 +1,12 @@
 import Recipe from './recipe.js';
 
+const recipiesContainer = document.getElementById("recipies");
+const message = document.getElementById("message");
+
+const searchBar = document.getElementById("searchBar");
+const searchReg = new RegExp(/[a-zA-Z]{3,}/);
+
 let recipies = [];
-let searchBar = document.getElementById("searchBar");
-let searchReg = new RegExp(/[a-zA-Z]{3,}/);
 
 export default class DisplayManager {
 
@@ -11,6 +15,9 @@ export default class DisplayManager {
     }
 
     homepage() {
+
+        // return; // ! 
+
         for (let obj of this.recipies) {
             let recipe = new Recipe(obj);
             recipe.display();
@@ -23,16 +30,16 @@ export default class DisplayManager {
 
 // * looking for word(s) in title, ingredients and description
 function onSearch(event) {
-
     for (let recipe of recipies) recipe.appendChild();
 
     if (searchReg.test(event.target.value)) {
         for (let recipe of recipies) {
-             if (!isWordInTitle(recipe, event) && !isWordInIngredients(recipe, event) && !isWordInDescription(recipe, event)) {
+            if (!isWordInTitle(recipe, event) && !isWordInIngredients(recipe, event) && !isWordInDescription(recipe, event)) {
                 recipe.removeChild();
             }
         }
     }
+    recipiesContainer.hasChildNodes() ? message.style.display = "none" : message.style.display = "flex";
 }
 
 function isWordInTitle(recipe, event) {
@@ -46,12 +53,18 @@ function isWordInIngredients(recipe, event) {
 }
 
 function isWordInDescription(recipe, event) {
-        // if (event.target.value.toLowerCase().match(/\b\w+\b/g).length > 1) {
-        //     return recipe.description.toLowerCase().includes(event.target.value.toLowerCase());
-        // }
+    // if (event.target.value.toLowerCase().match(/\b\w+\b/g).length > 1) {
+    //     return recipe.description.toLowerCase().includes(event.target.value.toLowerCase());
+    // }
     // if (event.target.value.toLowerCase().startsWith("pom") ) {
     //     return recipe.description.toLowerCase().includes(event.target.value.toLowerCase());
     // }
     // /*else*/ return recipe.description.toLowerCase().split(/[\s,\?\,\.!]+/).some(word => word === event.target.value.toLowerCase());
-    return recipe.description.toLowerCase().includes(event.target.value.toLowerCase());
+
+    return recipe.description.toLowerCase().split(/[\s,\?\,\.!]+/).some(word => word === event.target.value.toLowerCase());
+    // return recipe.description.toLowerCase().includes(event.target.value.toLowerCase());
+}
+
+function sendMessage() {
+    
 }
