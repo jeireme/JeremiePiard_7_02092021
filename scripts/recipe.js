@@ -12,6 +12,7 @@ export default class Medias {
         this.appliance = data.appliance;
         this.ustensils = data.ustensils;
         this.image = "poke.jpg";
+        this.onScreen;
         this.recipe = document.createElement('div');
     }
 
@@ -42,10 +43,12 @@ export default class Medias {
     }
 
     appendChild() {
+        this.onScreen = true;
         recipies.appendChild(this.recipe);
     }
 
     removeChild() {
+        this.onScreen = false;
         recipies.removeChild(this.recipe);
     }
 }

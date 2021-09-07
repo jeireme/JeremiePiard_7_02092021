@@ -67,29 +67,73 @@ header {
   }
   &__options {
     display: flex;
-    button {
-      @include flexRowBetweenCenter;
+    height: 73px;
+    &__category {
+      @include flexColumnStart;
+      z-index: 2;
       margin-right: 20px;
       padding: 25px 20px;
       border: none;
       border-radius: 5px;
       color: white;
-      span {
-        margin-right: 30px;
-        font-size: large;
+      height: 23px;
+      overflow: hidden;
+      width: 150px;
+      transition: all 0.5s;
+      p {
+        margin-bottom: 0;
+        width: fit-content;
+      }
+      &__interactive {
+        @include flexRowBetweenCenter;
+        width: 100%;
+        input {
+          width: 90%;
+          background-color: inherit;
+          border: none;
+          color: white;
+          font-size: large;
+          &::-webkit-input-placeholder {
+            color: white;
+            transition: color 0.2s;
+            font-size: large;
+          }
+          &:focus {
+            outline: none;
+            &::-webkit-input-placeholder {
+              transition: color 0.5s;
+              color: rgba(255, 255, 255, 0.555);
+            }
+          }
+        }
+        i {
+          width: fit-content;
+          cursor: pointer;
+          transform: rotate(0deg);
+          transition: transform 0.3s;
+        }
+      }
+      &--ingredients {
+        background-color: #3182f7;
+      }
+      &--appliances {
+        background-color: #68d9a5;
+      }
+      &--utensils {
+        background-color: #ed6454;
       }
     }
   }
 }
 
-#ingredients {
-  background-color: #3182f7;
-}
-#appliances {
-  background-color: #68d9a5;
-}
-#utensils {
-  background-color: #ed6454;
+#ingredients, #appliances, #utensils {
+  opacity: 0;
+  display: grid;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  transition: all 0.4s;
+  grid-template: 1fr / max-content max-content max-content;
+  grid-column-gap: 50px;
 }
 
 .recipies {

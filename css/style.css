@@ -68,33 +68,84 @@ header img {
 }
 .search__options {
   display: flex;
+  height: 73px;
 }
-.search__options button {
+.search__options__category {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 2;
   margin-right: 20px;
   padding: 25px 20px;
   border: none;
   border-radius: 5px;
   color: white;
+  height: 23px;
+  overflow: hidden;
+  width: 150px;
+  transition: all 0.5s;
 }
-.search__options button span {
-  margin-right: 30px;
+.search__options__category p {
+  margin-bottom: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.search__options__category__interactive {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.search__options__category__interactive input {
+  width: 90%;
+  background-color: inherit;
+  border: none;
+  color: white;
   font-size: large;
 }
-
-#ingredients {
+.search__options__category__interactive input::-webkit-input-placeholder {
+  color: white;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  font-size: large;
+}
+.search__options__category__interactive input:focus {
+  outline: none;
+}
+.search__options__category__interactive input:focus::-webkit-input-placeholder {
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  color: rgba(255, 255, 255, 0.555);
+}
+.search__options__category__interactive i {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+  transform: rotate(0deg);
+  transition: transform 0.3s;
+}
+.search__options__category--ingredients {
   background-color: #3182f7;
 }
-
-#appliances {
+.search__options__category--appliances {
   background-color: #68d9a5;
 }
-
-#utensils {
+.search__options__category--utensils {
   background-color: #ed6454;
+}
+
+#ingredients, #appliances, #utensils {
+  opacity: 0;
+  display: grid;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  transition: all 0.4s;
+  grid-template: 1fr/max-content -webkit-max-content -webkit-max-content;
+  grid-template: 1fr/max-content max-content max-content;
+  grid-column-gap: 50px;
 }
 
 .recipies {
