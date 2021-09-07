@@ -90,6 +90,12 @@ header img {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.search__options__category p:hover {
+  transform: scale(1.075);
+  transition: all 0.2s;
 }
 .search__options__category__interactive {
   display: flex;

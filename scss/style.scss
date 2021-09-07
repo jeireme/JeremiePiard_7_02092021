@@ -83,6 +83,12 @@ header {
       p {
         margin-bottom: 0;
         width: fit-content;
+        cursor: pointer; // !!!!!!!!!!!!!!!!!!! bientot en tags
+        transition: all 0.2s; 
+        &:hover {
+          transform: scale(1.075);
+          transition: all 0.2s; 
+        }
       }
       &__interactive {
         @include flexRowBetweenCenter;

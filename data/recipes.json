@@ -31,7 +31,7 @@
             "time": 10,
             "description": "Mettre les glaçons dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée.",
             "appliance": "Blender",
-            "ustensils": ["Cuillère à Soupe", "Verres", "Presse citron"]
+            "ustensils": ["Cuillère à soupe", "Verres", "Presse citron"]
         },
         {
             "id": 2,

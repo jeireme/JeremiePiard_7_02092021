@@ -108,7 +108,7 @@ function onIngredientFocus(event) {
     inputIngredients.setAttribute("placeholder", "Rechercher un ingrédient");
 
     let filteredIngredientsWidth = document.getElementById("ingredients").clientWidth;
-    if (filteredIngredientsWidth > 100) ingredientContainer.style.width = filteredIngredientsWidth + "px";
+    if (filteredIngredientsWidth > 200) ingredientContainer.style.width = filteredIngredientsWidth + "px";
     else ingredientContainer.style.width = "300px";
 
     let filteredIngredientsHeight = document.getElementById("ingredients").offsetHeight ;
@@ -141,7 +141,7 @@ function onAppliancesFocus(event) {
     inputAppliances.setAttribute("placeholder", "Rechercher un appareil");
 
     let filteredAppliancesWidth = document.getElementById("appliances").clientWidth;
-    if (filteredAppliancesWidth > 100) appliancesContainer.style.width = filteredAppliancesWidth + "px";
+    if (filteredAppliancesWidth > 200) appliancesContainer.style.width = filteredAppliancesWidth + "px";
     else appliancesContainer.style.width = "300px";
 
     let filteredIngredientsHeight = document.getElementById("appliances").offsetHeight;
@@ -173,7 +173,7 @@ function onUtensilsFocus(event) {
     inputUtensils.setAttribute("placeholder", "Rechercher un ustensile");
 
     let filteredUtensilsWidth = document.getElementById("utensils").clientWidth;
-    if (filteredUtensilsWidth > 100) utensilsContainer.style.width = filteredUtensilsWidth + "px";
+    if (filteredUtensilsWidth > 200) utensilsContainer.style.width = filteredUtensilsWidth + "px";
     else utensilsContainer.style.width = "300px";
 
     let filteredIngredientsHeight = document.getElementById("utensils").offsetHeight ;
