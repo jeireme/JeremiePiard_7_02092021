@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": 1,
-            "name": "Limonade de Coco",
+            "name": "Limonade de coco",
             "servings": 1,
             "ingredients": [{
                     "ingredient": "Lait de coco",
@@ -35,7 +35,7 @@
         },
         {
             "id": 2,
-            "name": "Poisson Cru à la tahitienne",
+            "name": "Poisson cru à la tahitienne",
             "servings": 2,
             "ingredients": [{
                     "ingredient": "Thon rouge/blanc",
@@ -245,7 +245,7 @@
             "time": 50,
             "description": "Étaler la pâte dans les moules à tartelette. Faire cuire la pâte 30 minutes. Découper le chocolat en morceau et le faire chauffer, y ajouter la crême liquide, ajouter le beurre et remuer jusqu'à avoir une pâte homogène. Verser la pâte sur les tartelettes. Couper les fraises en 2 et les positionner sur les tartelettes.",
             "appliance": "Four",
-            "ustensils": ["Moule à tartelettes (6)", "Casserolle"]
+            "ustensils": ["Moule à tartelette", "Casserolle"]
         }, {
             "id": 8,
             "name": "Brownie",
@@ -284,11 +284,11 @@
             "time": 60,
             "description": "Hacher grossièrement les noix. Faire fondre le chocolat avec le beurre. Mélanger les oeufs et le sucre en le mélangeant au chocolat. Ajouter la farine. Mélanger le tout afin d'avoir quelque chose d'homogène puis ajouter les noix. Verser la préparation dans un moule de préférence rectangulaire. Cuire 2O à 25 minutes à 180°C. Sortir du four et attendre quelques minutes pour démouler. Servir avec une boule de glace pour les plus gourmands.",
             "appliance": "Four",
-            "ustensils": ["Moule à gateaux", "Casserolle"]
+            "ustensils": ["Moule à gateau", "Casserolle"]
         },
         {
             "id": 9,
-            "name": "Salade Méditerannéene fraiche au chèvre",
+            "name": "Salade méditerannéene fraiche au chèvre",
             "servings": 4,
             "ingredients": [{
                     "ingredient": "Concombre",
@@ -453,7 +453,7 @@
         },
         {
             "id": 14,
-            "name": "Galette Bretonne Saucisse et Fromage à raclette",
+            "name": "Galette bretonne saucisse et fromage à raclette",
             "servings": 2,
             "ingredients": [{
                     "ingredient": "Saucisse bretonne ou de toulouse",
@@ -492,7 +492,7 @@
         },
         {
             "id": 15,
-            "name": "Crêpes Chocolat Banane",
+            "name": "Crêpes chocolat banane",
             "servings": 10,
             "ingredients": [{
                     "ingredient": "Oeuf",
@@ -620,7 +620,7 @@
         },
         {
             "id": 19,
-            "name": "Shake Banane Kiwi",
+            "name": "Shake banane kiwi",
             "servings": 4,
             "ingredients": [{
                     "ingredient": "Kiwi",
@@ -652,7 +652,7 @@
         },
         {
             "id": 20,
-            "name": "Pates Carbonara",
+            "name": "Pates carbonara",
             "servings": 5,
             "ingredients": [{
                     "ingredient": "Tagliatelles",
@@ -756,7 +756,7 @@
             "time": 30,
             "description": "Faire fondre le chocolat et le beurre au bain marie. Dans un saladier, battre les oeufs avec le sucre jusqu'à obtenir une texture mousseuse. Ajouter la farine ainsi que le mélange de beurre et de chocolat fondu. Beurrer le moule à gâteau. Préchauffer le four à 200°C et cuire pendant 15 minutes. C'est prêt ! Servir avec une boule de glace ou une crême dessert.",
             "appliance": "Four",
-            "ustensils": ["Moule à gateaux", "Fouet", "Casserolle"]
+            "ustensils": ["Moule à gateau", "Fouet", "Casserolle"]
         },
         {
             "id": 23,
@@ -968,7 +968,7 @@
         },
         {
             "id": 29,
-            "name": "Houmous Express",
+            "name": "Houmous express",
             "servings": 2,
             "ingredients": [{
                     "ingredient": "Pois chiches",
@@ -1055,7 +1055,7 @@
         },
         {
             "id": 32,
-            "name": "Croque Monsieur à la dinde",
+            "name": "Croque monsieur à la dinde",
             "servings": 4,
             "ingredients": [{
                     "ingredient": "Pain de mie",
@@ -1194,7 +1194,7 @@
         },
         {
             "id": 36,
-            "name": "Lasagne Courgettes et Chèvre",
+            "name": "Lasagnes courgettes et chèvre",
             "servings": 2,
             "ingredients": [{
                     "ingredient": "Courgette",
@@ -1271,7 +1271,7 @@
         },
         {
             "id": 38,
-            "name": "Pain Perdu",
+            "name": "Pain perdu",
             "servings": 4,
             "ingredients": [{
                     "ingredient": "Pain",
@@ -1382,7 +1382,7 @@
         },
         {
             "id": 42,
-            "name": "Charlotte au poires",
+            "name": "Charlotte aux poires",
             "servings": 3,
             "ingredients": [{
                     "ingredient": "Chocolat",

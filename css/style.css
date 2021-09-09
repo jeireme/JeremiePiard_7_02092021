@@ -15,12 +15,61 @@ header img {
   width: 300px;
 }
 
+@-webkit-keyframes onTag {
+  15% {
+    transform: scale(0.9);
+  }
+  30% {
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.07);
+  }
+  95% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes onTag {
+  15% {
+    transform: scale(0.9);
+  }
+  30% {
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.07);
+  }
+  95% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.animationTag {
+  opacity: 0;
+  -webkit-animation: onTag 500ms forwards;
+          animation: onTag 500ms forwards;
+}
+
+.alreadySelected {
+  -webkit-animation: onTag 500ms forwards;
+          animation: onTag 500ms forwards;
+}
+
 .search {
   width: 100%;
   margin-bottom: 30px;
 }
 .search__bar {
   position: relative;
+  margin-bottom: 15px;
 }
 .search__bar input {
   width: 98%;
@@ -45,9 +94,11 @@ header img {
 }
 .search__tags {
   display: flex;
-  margin-top: 10px;
+  height: 0px;
+  transition: all 0.3s;
 }
 .search__tags p {
+  margin-top: 5px;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -65,6 +116,7 @@ header img {
   position: absolute;
   font-size: 1.3em;
   right: 20px;
+  cursor: pointer;
 }
 .search__options {
   display: flex;
@@ -83,7 +135,7 @@ header img {
   height: 23px;
   overflow: hidden;
   width: 150px;
-  transition: all 0.5s;
+  transition: all 0.5s 0.12s;
 }
 .search__options__category p {
   margin-bottom: 0;
@@ -94,7 +146,7 @@ header img {
   transition: all 0.2s;
 }
 .search__options__category p:hover {
-  transform: scale(1.075);
+  color: black;
   transition: all 0.2s;
 }
 .search__options__category__interactive {
@@ -113,16 +165,16 @@ header img {
 }
 .search__options__category__interactive input::-webkit-input-placeholder {
   color: white;
-  -webkit-transition: color 0.2s;
-  transition: color 0.2s;
+  -webkit-transition: color 0.2s 0.25s;
+  transition: color 0.2s 0.25s;
   font-size: large;
 }
 .search__options__category__interactive input:focus {
   outline: none;
 }
 .search__options__category__interactive input:focus::-webkit-input-placeholder {
-  -webkit-transition: color 0.5s;
-  transition: color 0.5s;
+  -webkit-transition: color 0.4s 0.2s;
+  transition: color 0.4s 0.2s;
   color: rgba(255, 255, 255, 0.555);
 }
 .search__options__category__interactive i {
@@ -143,12 +195,14 @@ header img {
   background-color: #ed6454;
 }
 
-#ingredients, #appliances, #utensils {
+#ingredients,
+#appliances,
+#utensils {
   opacity: 0;
   display: grid;
   margin-top: 10px;
   margin-bottom: 5px;
-  transition: all 0.4s;
+  transition: all 0.4s 0.2s;
   grid-template: 1fr/max-content -webkit-max-content -webkit-max-content;
   grid-template: 1fr/max-content max-content max-content;
   grid-column-gap: 50px;
@@ -160,11 +214,14 @@ header img {
   grid-template: 1fr/1fr 1fr 1fr;
   grid-gap: 30px;
   margin-bottom: 100px;
+  margin-top: 50px;
 }
 
 .recipe {
   width: 100%;
   border-radius: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 .recipe__preview {
   width: 100%;
@@ -184,6 +241,7 @@ header img {
   height: 220px;
   border-radius: 0 0 10px 10px;
   background-color: #e7e7e7;
+  transition: all 0.3s;
 }
 .recipe__informations__header {
   display: flex;
@@ -214,6 +272,7 @@ header img {
   width: 50%;
 }
 .recipe__informations__ingredients__list p {
+  z-index: 3;
   margin: 0px;
 }
 .recipe__informations__ingredients__text {
@@ -232,6 +291,14 @@ header img {
 }
 .recipe__informations__ingredients__text p {
   margin: 0px;
+}
+.recipe:hover {
+  transform: scale(1.02);
+  transition: all 0.3s;
+}
+.recipe:hover .recipe__informations {
+  background-color: #ffe1e1;
+  transition: all 0.3s;
 }
 
 #message {

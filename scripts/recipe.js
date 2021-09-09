@@ -7,16 +7,20 @@ export default class Medias {
         this.name = data.name;
         this.servings = data.servings;
         this.ingredients = data.ingredients;
+        this.ingredientsList = setIngredientsList(data.ingredients);
         this.time = data.time;
         this.description = data.description;
         this.appliance = data.appliance;
         this.ustensils = data.ustensils;
+        this.utensilsList = setUtensilsList(data.ustensils);
         this.image = "poke.jpg";
         this.onScreen;
+        this.searched;
+        this.selectedByTags;
         this.recipe = document.createElement('div');
     }
 
-    display() {
+    init() {
         this.recipe.className = "recipe";
         this.recipe.id = this.id;
         this.recipe.innerHTML = `
@@ -43,12 +47,10 @@ export default class Medias {
     }
 
     appendChild() {
-        this.onScreen = true;
         recipies.appendChild(this.recipe);
     }
 
     removeChild() {
-        this.onScreen = false;
         recipies.removeChild(this.recipe);
     }
 }
@@ -69,4 +71,20 @@ function setIngredients(ingredients) {
 function isTitleTakingTwoLines(name) {
     if (name.length > 27) return ' recipe__informations__ingredients__text--shorter';
     else return '';
+}
+
+function setIngredientsList(ingredients) {
+    const array = [];
+    for (const list of ingredients) {
+        array.push(list.ingredient.toLowerCase());
+    }
+    return array;
+}
+
+function setUtensilsList(utensils) {
+    const array = [];
+    for (const utensil of utensils) {
+        array.push(utensil.toLowerCase());
+    }
+    return array;
 }
