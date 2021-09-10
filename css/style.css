@@ -9,7 +9,7 @@ header {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 20px auto;
+  margin: 30px auto 20px auto;
 }
 header img {
   width: 300px;
@@ -63,23 +63,37 @@ header img {
           animation: onTag 500ms forwards;
 }
 
+.filtersAndTagsContainer {
+  height: 133px;
+}
+
+.tag {
+  margin-right: 20px;
+}
+
 .search {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .search__bar {
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .search__bar input {
   width: 98%;
   height: 70px;
   background-color: #d3d3d3a2;
-  border: none;
+  border: 2px solid transparent;
   border-radius: 10px;
   position: relative;
   font-size: large;
   padding-left: 25px;
+  outline: none;
+  transition: border 0.2s;
+}
+.search__bar input:focus {
+  border: 2px solid #00000091;
+  transition: border 0.2s;
 }
 .search__bar input::-webkit-input-placeholder {
   color: #9c9c9c;
@@ -98,7 +112,6 @@ header img {
   transition: all 0.3s;
 }
 .search__tags p {
-  margin-top: 5px;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -106,7 +119,7 @@ header img {
   padding: 10px 20px;
   border-radius: 5px;
   background-color: #3182f7;
-  margin-right: 20px;
+  margin: 0px;
   color: white;
 }
 .search__tags__name {
@@ -206,6 +219,7 @@ header img {
   grid-template: 1fr/max-content -webkit-max-content -webkit-max-content;
   grid-template: 1fr/max-content max-content max-content;
   grid-column-gap: 50px;
+  max-height: 1000px;
 }
 
 .recipies {
@@ -214,7 +228,7 @@ header img {
   grid-template: 1fr/1fr 1fr 1fr;
   grid-gap: 30px;
   margin-bottom: 100px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .recipe {
