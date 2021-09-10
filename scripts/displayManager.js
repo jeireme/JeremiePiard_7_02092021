@@ -108,6 +108,10 @@ function onIngredientFocusOut(event) {
 
     ingredientsListIcon.addEventListener("click", onIngredientClick);
     toggleIcon(ingredientsListIcon);
+
+    setTimeout(function() {
+        setFiltersList();
+    }, 500);
 }
 
 ////////////////// ? Appliances 
@@ -146,6 +150,10 @@ function onAppliancesFocusOut(event) {
 
     appliancesListIcon.addEventListener("click", onAppliancesClick);
     toggleIcon(appliancesListIcon);
+
+    setTimeout(function() {
+        setFiltersList();
+    }, 500);
 }
 
 ////////////////// ? Utensils
@@ -184,6 +192,10 @@ function onUtensilsFocusOut(event) {
 
     utensilsListIcon.addEventListener("click", onUtensilsClick);
     toggleIcon(utensilsListIcon);
+
+    setTimeout(function() {
+        setFiltersList();
+    }, 500);
 }
 
 function toggleIcon(listIcon) {

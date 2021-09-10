@@ -222,13 +222,35 @@ header img {
   max-height: 1000px;
 }
 
+@-webkit-keyframes onDisplay {
+  0% {
+    transform: scale(0.98);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes onDisplay {
+  0% {
+    transform: scale(0.98);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .recipies {
+  -webkit-animation: onDisplay 700ms 500ms forwards;
+          animation: onDisplay 700ms 500ms forwards;
+  opacity: 0;
   display: grid;
   width: 100%;
   grid-template: 1fr/1fr 1fr 1fr;
   grid-gap: 30px;
   margin-bottom: 100px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .recipe {
