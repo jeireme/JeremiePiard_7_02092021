@@ -9,7 +9,7 @@ header {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 30px auto 20px auto;
+  margin: 40px auto 15px auto;
 }
 header img {
   width: 300px;
@@ -212,6 +212,7 @@ header img {
 #appliances,
 #utensils {
   opacity: 0;
+  display: grid;
   display: grid;
   margin-top: 10px;
   margin-bottom: 5px;

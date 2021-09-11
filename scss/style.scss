@@ -12,7 +12,7 @@ header {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 30px auto 20px auto;
+  margin: 40px auto 15px auto;
   img {
     width: 300px;
   }
@@ -94,7 +94,6 @@ header {
     transition: all 0.3s; // ???
     
     p {
-      // margin-top: 5px;
       position: relative;
       width: fit-content;
       padding: 10px 20px;
@@ -165,7 +164,6 @@ header {
           cursor: pointer;
           transform: rotate(0deg);
           transition: transform 0.3s;
-          // pointer-events: none; // ! debug
         }
       }
       &--ingredients {
@@ -185,20 +183,14 @@ header {
 #appliances,
 #utensils {
   opacity: 0;
-  // display: grid;
+  display: grid;
   display: grid;
   margin-top: 10px;
   margin-bottom: 5px;
   transition: all 0.4s 0.2s;
   grid-template: 1fr / max-content max-content max-content;
-  // grid-template: 1fr;
   grid-column-gap: 50px;
-  // max-height: 1000px;
 }
-
-// .listDisplayedOnOneColumn {
-//   grid-template: 1fr;
-// }
 
 @keyframes onDisplay {
   0% {
