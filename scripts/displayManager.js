@@ -75,10 +75,11 @@ export default class DisplayManager {
 
 function onIngredientClick(event) {
     inputIngredients.focus();
-    ingredientsListIcon.removeEventListener("click", onIngredientClick);
 }
 
 function onIngredientFocus(event) {
+
+    ingredientsListIcon.removeEventListener("click", onIngredientClick);
 
     if ((searchedRecipies.length == 0) && (tagsList.length == 0)) {
         for (const ingredient of ingredientsList) {
@@ -106,6 +107,7 @@ function onIngredientFocusOut(event) {
 
     setTimeout(function () {
         document.getElementById("ingredients").style.gridTemplateColumns = "max-content max-content max-content";
+        ingredientsListIcon.addEventListener("click", onIngredientClick);
     }, 500);
 
     setTimeout(function () {
@@ -119,7 +121,6 @@ function onIngredientFocusOut(event) {
         ingredientContainer.style.height = "23px";
     }, 100);
 
-    ingredientsListIcon.addEventListener("click", onIngredientClick);
     toggleIcon(ingredientsListIcon);
 }
 
@@ -127,10 +128,11 @@ function onIngredientFocusOut(event) {
 
 function onAppliancesClick(event) {
     inputAppliances.focus();
-    appliancesListIcon.removeEventListener("click", onAppliancesClick);
 }
 
 function onAppliancesFocus(event) {
+
+    appliancesListIcon.removeEventListener("click", onAppliancesClick);
 
     if ((searchedRecipies.length == 0) && (tagsList.length == 0)) {
         for (const applianceFilter of appliancesList) {
@@ -157,6 +159,7 @@ function onAppliancesFocusOut(event) {
 
     setTimeout(function () {
         document.getElementById("appliances").style.gridTemplateColumns = "max-content max-content max-content";
+        appliancesListIcon.addEventListener("click", onAppliancesClick);
     }, 500);
 
     setTimeout(function () {
@@ -170,7 +173,6 @@ function onAppliancesFocusOut(event) {
         appliancesContainer.style.height = "23px";
     }, 100);
 
-    appliancesListIcon.addEventListener("click", onAppliancesClick);
     toggleIcon(appliancesListIcon);
 }
 
@@ -178,10 +180,11 @@ function onAppliancesFocusOut(event) {
 
 function onUtensilsClick(event) {
     inputUtensils.focus();
-    utensilsListIcon.removeEventListener("click", onUtensilsClick);
 }
 
 function onUtensilsFocus(event) {
+
+    utensilsListIcon.removeEventListener("click", onUtensilsClick);
 
     if ((searchedRecipies.length == 0) && (tagsList.length == 0)) {
         for (const utensilFilter of utensilsList) {
@@ -208,6 +211,7 @@ function onUtensilsFocusOut(event) {
 
     setTimeout(function () {
         document.getElementById("utensils").style.gridTemplateColumns = "max-content max-content max-content";
+        utensilsListIcon.addEventListener("click", onUtensilsClick);
     }, 500);
 
     setTimeout(function () {
@@ -221,7 +225,6 @@ function onUtensilsFocusOut(event) {
         utensilsContainer.style.height = "23px";
     }, 100);
 
-    utensilsListIcon.addEventListener("click", onUtensilsClick);
     toggleIcon(utensilsListIcon);
 }
 
