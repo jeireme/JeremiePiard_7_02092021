@@ -165,6 +165,7 @@ header {
           cursor: pointer;
           transform: rotate(0deg);
           transition: transform 0.3s;
+          // pointer-events: none; // ! debug
         }
       }
       &--ingredients {
@@ -184,14 +185,20 @@ header {
 #appliances,
 #utensils {
   opacity: 0;
+  // display: grid;
   display: grid;
   margin-top: 10px;
   margin-bottom: 5px;
   transition: all 0.4s 0.2s;
   grid-template: 1fr / max-content max-content max-content;
+  // grid-template: 1fr;
   grid-column-gap: 50px;
-  max-height: 1000px;
+  // max-height: 1000px;
 }
+
+// .listDisplayedOnOneColumn {
+//   grid-template: 1fr;
+// }
 
 @keyframes onDisplay {
   0% {

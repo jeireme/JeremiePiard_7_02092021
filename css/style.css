@@ -219,7 +219,6 @@ header img {
   grid-template: 1fr/max-content -webkit-max-content -webkit-max-content;
   grid-template: 1fr/max-content max-content max-content;
   grid-column-gap: 50px;
-  max-height: 1000px;
 }
 
 @-webkit-keyframes onDisplay {
