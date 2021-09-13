@@ -25,21 +25,35 @@ export default class DisplayManager {
 }
 
 function onSearch(event) {
-    for (let recipe of recipies) {
-        if (recipiesContainer.contains(recipe)) recipe.removeChild();
+    for (let list of recipies) {
+        if (recipiesContainer.contains(list.recipe)) {
+            list.removeChild();
+        }
     }
 
     if (searchReg.test(event.target.value)) {
         for (let recipe of recipies) {
-            if (recipe.name.toLowerCase().includes(event.target.value.toLowerCase())) {
-                console.log("REMOVE");
-                if (recipiesContainer.contains(recipe)) recipe.appendChild();
+            if (isWordInRecipeTitle(recipe.name, event.target.value) || isWordInRecipeIngredients(recipe.ingredients, event.target.value) || isWordInRecipeDescription(recipe.description, event.target.value)) {
+                recipe.appendChild();
             }
         }
     } else {
-        console.log("Reset");
         for (let recipe of recipies) recipe.appendChild();
     }
 
     recipiesContainer.hasChildNodes() ? message.style.display = "none" : message.style.display = "flex";
+}
+
+function isWordInRecipeTitle(title, word) {
+    return title.toLowerCase().includes(word.toLowerCase());
+}
+
+function isWordInRecipeIngredients(recipeIngredients, word) {
+    for (let list of recipeIngredients) {
+        if (list.ingredient.toLowerCase().includes(word.toLowerCase())) return true;
+    }
+}
+
+function isWordInRecipeDescription(recipeDescription, word) {
+    return recipeDescription.toLowerCase().split(/[\s,\?\,\.!]+/).some(string => string === word.toLowerCase());
 }

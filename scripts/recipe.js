@@ -1,6 +1,6 @@
 const recipies = document.getElementById("recipies");
 
-export default class Medias {
+export default class Recipe {
 
     constructor(data) {
         this.id = data.id;
