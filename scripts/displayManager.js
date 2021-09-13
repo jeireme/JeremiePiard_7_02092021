@@ -71,8 +71,6 @@ export default class DisplayManager {
     }
 }
 
-////////////////// ? Ingredients
-
 function onIngredientClick(event) {
     inputIngredients.focus();
 }
@@ -124,8 +122,6 @@ function onIngredientFocusOut(event) {
     toggleIcon(ingredientsListIcon);
 }
 
-////////////////// ? Appliances 
-
 function onAppliancesClick(event) {
     inputAppliances.focus();
 }
@@ -175,8 +171,6 @@ function onAppliancesFocusOut(event) {
 
     toggleIcon(appliancesListIcon);
 }
-
-////////////////// ? Utensils
 
 function onUtensilsClick(event) {
     inputUtensils.focus();
@@ -245,20 +239,23 @@ function onGeneralSearch(event) {
     deleteAllTags();
 
     for (let recipe of recipies) {
-        recipe.searched = true;
-        recipe.appendChild();
+        if (recipiesContainer.contains(recipe.recipe)) {
+            recipe.searched = false;
+            recipe.removeChild();
+        }
     }
 
     if (searchReg.test(event.target.value)) {
         for (let recipe of recipies) {
-            if (!isWordInTitle(recipe, event.target.value) && !isWordInIngredients(recipe, event.target.value) && !isWordInDescription(recipe, event.target.value)) {
-                recipe.searched = false;
-                recipe.removeChild();
+            if (isWordInTitle(recipe, event.target.value) || isWordInIngredients(recipe, event.target.value) || isWordInDescription(recipe, event.target.value)) {
+                recipe.searched = true;
+                recipe.appendChild();
             }
         }
         searchedRecipies = recipies.filter(recipe => recipe.searched);
         setFiltersList();
     } else {
+        for (let recipe of recipies) recipe.appendChild();
         filteredRecipies = [];
         searchedRecipies = [];
         filteredByTagsRecipies = [];
@@ -376,7 +373,6 @@ function generateNewTag(event) {
 
 function onFilterSearch() {
 
-    //? verify the name of the variable
     if (searchedRecipies.length > 0) filteredRecipies = searchedRecipies;
     else filteredRecipies = recipies;
 

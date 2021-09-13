@@ -1,8 +1,6 @@
 import DisplayManager from './displayManager.js';
 
-// const url = "../data/recipes.json";
-// const url = "https://raw.githubusercontent.com/jeireme/JeremiePiard_7_02092021/master/data/recipes.json";
-const url = "https://raw.githubusercontent.com/jeireme/JeremiePiard_7_02092021/algorithm-1/data/recipes.json";
+const url = "https://raw.githubusercontent.com/jeireme/JeremiePiard_7_02092021/master/data/recipes.json";
 
 fetch(url).then(response => {
         if (response.ok) return response.json();
