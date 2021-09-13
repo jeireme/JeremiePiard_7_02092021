@@ -7,15 +7,20 @@ export default class Medias {
         this.name = data.name;
         this.servings = data.servings;
         this.ingredients = data.ingredients;
+        this.ingredientsList = setIngredientsList(data.ingredients);
         this.time = data.time;
         this.description = data.description;
         this.appliance = data.appliance;
         this.ustensils = data.ustensils;
+        this.utensilsList = setUtensilsList(data.ustensils);
         this.image = "poke.jpg";
+        this.onScreen;
+        this.searched;
+        this.selectedByTags;
         this.recipe = document.createElement('div');
     }
 
-    display() {
+    init() {
         this.recipe.className = "recipe";
         this.recipe.id = this.id;
         this.recipe.innerHTML = `
@@ -31,7 +36,7 @@ export default class Medias {
                     <div class="recipe__informations__ingredients__list">
                         ${setIngredients(this.ingredients)}
                     </div>
-                    <div class="recipe__informations__ingredients__text${isNameTakingTwoLines(this.name)}">
+                    <div class="recipe__informations__ingredients__text${isTitleTakingTwoLines(this.name)}">
                         <p>${this.description}</p>
                     </div>
                 </div>
@@ -63,7 +68,23 @@ function setIngredients(ingredients) {
     return html;
 }
 
-function isNameTakingTwoLines(name) {
-    if (name.length > 28) return ' recipe__informations__ingredients__text--shorter';
+function isTitleTakingTwoLines(name) {
+    if (name.length > 27) return ' recipe__informations__ingredients__text--shorter';
     else return '';
+}
+
+function setIngredientsList(ingredients) {
+    const array = [];
+    for (const list of ingredients) {
+        array.push(list.ingredient.toLowerCase());
+    }
+    return array;
+}
+
+function setUtensilsList(utensils) {
+    const array = [];
+    for (const utensil of utensils) {
+        array.push(utensil.toLowerCase());
+    }
+    return array;
 }

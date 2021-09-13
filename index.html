@@ -17,45 +17,49 @@
     </header>
 
     <main>
-        <section class="search">
+        <div class="search">
             <div class="search__bar">
                 <input type="text" name="searchBar" id="searchBar" placeholder="Rechercher un ingrédient, appareil, ustensiles ou une recette">
                 <i class="fas fa-search"></i>
             </div>
 
-            <div class="search__tags">
-                <p><span class="search__tags__name">Mousse au chocolat</span><i class="far fa-times-circle"></i></p>
-                <p><span class="search__tags__name">Coco</span><i class="far fa-times-circle"></i></p>
-                <p><span class="search__tags__name">Citron</span><i class="far fa-times-circle"></i></p>
-            </div>
+            <div class="filtersAndTagsContainer">
 
-            <div class="search__options">
-                <div class="search__options--ingredients">
-                    <button id="ingredients">
-                        <span>Ingrédients</span><i class="fas fa-chevron-down fa-lg"></i>
-                    </button>
-                </div>
-                <div class="search__options--appliances">
-                    <button id="appliances">
-                        <span>Appareil</span><i class="fas fa-chevron-down fa-lg"></i>
-                    </button>
-                </div>
-                <div class="search__options--utensils">
-                    <button id="utensils">
-                        <span>Ustensiles</span><i class="fas fa-chevron-down fa-lg"></i>
-                    </button>
+                <div class="search__tags"></div>
+
+                <div class="search__options">
+                    <div class="search__options__category search__options__category--ingredients" id="ingredientContainer">
+                        <div class="search__options__category__interactive">
+                            <input type="text" name="ingredients" id="inputIngredients" placeholder="Ingrédients"><i id="ingredientsListIcon" class="fas fa-chevron-down fa-lg"></i>
+                        </div>
+                        <div id="ingredients"></div>
+                    </div>
+                    <div class="search__options__category search__options__category--appliances" id="appliancesContainer">
+                        <div class="search__options__category__interactive">
+                            <input type="text" name="appliances" id="inputAppliances" placeholder="Appareils"><i id="appliancesListIcon" class="fas fa-chevron-down fa-lg"></i>
+                        </div>
+                        <div id="appliances"></div>
+                    </div>
+                    <div class="search__options__category search__options__category--utensils" id="utensilsContainer">
+                        <div class="search__options__category__interactive">
+                            <input type="text" name="utensils" id="inputUtensils" placeholder="Ustensiles"><i id="utensilsListIcon" class="fas fa-chevron-down fa-lg"></i>
+                        </div>
+                        <div id="utensils"></div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
 
         <div id="message">
-            <br/>
+            <br />
             <h2>Aucune recette ne correspond à votre recherche...</h2>
-            <p>Vous pouvez essayer de chercher d'autres mots-clés comme « <span>tarte aux pommes</span> », « <span>poisson</span> », <br/>ou découvrir de nouvelles recettes à l'aide de nos <span>filtres de recherche</span>.</p>
+            <p>Vous pouvez essayer de chercher d'autres mots-clés comme « <span>tarte aux pommes</span> », « <span>poisson</span> », <br />ou découvrez de nouvelles recettes à l'aide de nos
+                <span>filtres de recherche</span>.
+            </p>
             <img src="img/drawing/sad.jpg" alt="Enfant triste à table qui ne veut pas manger ses légumes.">
         </div>
 
-        <section class="recipies" id="recipies"></section>
+        <div class="recipies" id="recipies"></div>
     </main>
     <script src="scripts/main.js" type="module"></script>
 </body>

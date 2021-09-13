@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": 1,
-            "name": "Limonade de Coco",
+            "name": "Limonade de coco",
             "servings": 1,
             "ingredients": [{
                     "ingredient": "Lait de coco",
@@ -31,14 +31,14 @@
             "time": 10,
             "description": "Mettre les glaçons dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée.",
             "appliance": "Blender",
-            "ustensils": ["cuillère à Soupe", "verres", "presse citron"]
+            "ustensils": ["Cuillère à soupe", "Verres", "Presse citron"]
         },
         {
             "id": 2,
-            "name": "Poisson Cru à la tahitienne",
+            "name": "Poisson cru à la tahitienne",
             "servings": 2,
             "ingredients": [{
-                    "ingredient": "Thon rouge (ou blanc)",
+                    "ingredient": "Thon rouge/blanc",
                     "quantity": 200,
                     "unit": "g"
                 },
@@ -59,7 +59,7 @@
                     "quantity": 5
                 },
                 {
-                    "ingredient": "Lait de Coco",
+                    "ingredient": "Lait de coco",
                     "quantity": 100,
                     "unit": "ml"
                 }
@@ -67,7 +67,7 @@
             "time": 60,
             "description": "Découper le thon en dés, mettre dans un plat et recouvrir de jus de citron vert (mieux vaut prendre un plat large et peu profond). Laisser reposer au réfrigérateur au moins 2 heures. Si possible préparer le soir pour le lendemain. Après avoir laissé mariner le poisson, couper le concombre en fines rondelles sans la peau et les tomates en prenant soin de retirer les pépins. Raper la carotte. Ajouter les légumes aux poissons avec le citron cette fois-ci dans un saladier. Ajouter le lait de coco. Pour ajouter un peu plus de saveur vous pouvez ajouter 1 à 2 cuillères à soupe de crème de coco.",
             "appliance": "Saladier",
-            "ustensils": ["presse citron"]
+            "ustensils": ["Presse citron"]
         }, {
             "id": 3,
             "name": "Poulet coco réunionnais",
@@ -101,7 +101,7 @@
             "time": 80,
             "description": "Découper le poulet en morceaux, les faire dorer dans une cocotte avec de l'huile d'olive. Saler et poivrer. Une fois doré, laisser cuire en ajoutant de l'eau. Au bout de 30 minutes, ajouter le coulis de tomate, le lait de coco ainsi que le poivron et l'oignon découpés en morceaux. Laisser cuire 30 minutes de plus. Servir avec du riz.",
             "appliance": "Cocotte",
-            "ustensils": ["couteau"]
+            "ustensils": ["Couteau"]
         }, {
             "id": 4,
             "name": "Salade de riz",
@@ -137,7 +137,7 @@
             "time": 50,
             "description": "Cuire le riz. Une fois le riz cuit, le laisser refroidir. Couper les oeufs durs en quarts ou en lamelles, couper le tomates en dés, ajouter au riz les oeufs, les tomates, le poisson, le maïs et la vinaigrette. Ajouter au gout de chacun des cornichons, olives, etc.",
             "appliance": "Cuiseur de riz",
-            "ustensils": ["saladier", "passoire"]
+            "ustensils": ["Saladier", "Passoire"]
         },
         {
             "id": 5,
@@ -175,7 +175,7 @@
             "time": 45,
             "description": "Étaler la pâte feuilletée aux dimensions du moule, étaler la moutarde sur la pâte feuilletée, ajouter le thon. Découper les tomates en rondelles et les poser sur le poisson, ajouter un peu de crème fraiche sur toute la tarte et recouvrir de gruyère râpé. Cuire au four 30 minutes.",
             "appliance": "Four",
-            "ustensils": ["moule à tarte", "râpe à fromage", "couteau"]
+            "ustensils": ["Moule à tarte", "Râpe à fromage", "Couteau"]
         },
         {
             "id": 6,
@@ -213,7 +213,7 @@
             "time": 50,
             "description": "Commencer par mélanger les oeufs, le sucre et le sucre vanillé dans un saladier. Découper les pommes en tranches, ajouter la crème fraiche aux oeufs. Une fois que tout est prêt, étaler la tarte dans le moule. Ne pas oublier de piquer le fond avec une fourchette avant de depositionner les pommes sur la tarte. Pour terminer, verser la préparation à base d'oeufs et de crême fraiche. Laisser cuire au four pendant 30 minutes.",
             "appliance": "Four",
-            "ustensils": ["moule à tarte", "saladier", "fourchette"]
+            "ustensils": ["Moule à tarte", "Saladier", "Fourchette"]
         }, {
             "id": 7,
             "name": "Tartelettes au chocolat et aux fraises",
@@ -245,7 +245,7 @@
             "time": 50,
             "description": "Étaler la pâte dans les moules à tartelette. Faire cuire la pâte 30 minutes. Découper le chocolat en morceau et le faire chauffer, y ajouter la crême liquide, ajouter le beurre et remuer jusqu'à avoir une pâte homogène. Verser la pâte sur les tartelettes. Couper les fraises en 2 et les positionner sur les tartelettes.",
             "appliance": "Four",
-            "ustensils": ["moule à tartelettes (6)", "casserolle"]
+            "ustensils": ["Moule à tartelette", "Casserolle"]
         }, {
             "id": 8,
             "name": "Brownie",
@@ -284,11 +284,11 @@
             "time": 60,
             "description": "Hacher grossièrement les noix. Faire fondre le chocolat avec le beurre. Mélanger les oeufs et le sucre en le mélangeant au chocolat. Ajouter la farine. Mélanger le tout afin d'avoir quelque chose d'homogène puis ajouter les noix. Verser la préparation dans un moule de préférence rectangulaire. Cuire 2O à 25 minutes à 180°C. Sortir du four et attendre quelques minutes pour démouler. Servir avec une boule de glace pour les plus gourmands.",
             "appliance": "Four",
-            "ustensils": ["moule à gateaux", "casserolle"]
+            "ustensils": ["Moule à gateau", "Casserolle"]
         },
         {
             "id": 9,
-            "name": "Salade Méditerannéene fraiche au chèvre",
+            "name": "Salade méditerannéene fraiche au chèvre",
             "servings": 4,
             "ingredients": [{
                     "ingredient": "Concombre",
@@ -315,7 +315,7 @@
             "time": 15,
             "description": "Peler le concombre, coupez-le en 2 et retirez ses pépins. Couper les olives en morceaux, ainsi que le fromage de chèvre. Ajouter le basilic ainsi que le vinaigre balsamic. Ajouter l'huile d'olive à votre convenance.",
             "appliance": "Saladier",
-            "ustensils": ["cuillère en bois", "couteau"]
+            "ustensils": ["Cuillère en bois", "Couteau"]
         },
         {
             "id": 10,
@@ -349,7 +349,7 @@
             "time": 60,
             "description": "Commencer par cuire les pommes de terre dans de l'eau bouillante. Épluchez-les et coupez-les en rondelles. Emincer les oignons puis les faire dorer dans du beurre. Ajouter le jambon fumé coupé en en morceaux ainsi que les pommes de terres. Saler et poivrer selon votre convenance (et celles de vos convives). Laisser cuire environs 10 minutes puis ajouter le vin blanc. Après 5 minutes, mettre le tout dans un plat à gratin. Couper le rebelochon en tranches ou en 2 dans le sens de l'épaisseur, et recouvrir les pommes de terre. Cuire au four à environs 220°C pendant 25 minutes. C'est prêt !",
             "appliance": "Four",
-            "ustensils": ["plat à gratin", "couteau", "Économe"]
+            "ustensils": ["Plat à gratin", "Couteau", "Économe"]
         }, {
             "id": 11,
             "name": "Salade tomate, mozzarella et pommes",
@@ -386,7 +386,7 @@
             "time": 10,
             "description": "Commencer par couper les feuilles de salade, ajouter les tomates cerises et le fromage découpé en cubes ou en boules avec la cuillère à melon. Découper le jambon de parme en fines lamelles. Ajouter la pomme elle aussi découpée en petits morceaux. Assaisonnez à votre gout.",
             "appliance": "Saladier",
-            "ustensils": ["couteau", "cuillère à melon"]
+            "ustensils": ["Couteau", "Cuillère à melon"]
         }, {
             "id": 12,
             "name": "Compote pomme rhubarbe",
@@ -414,7 +414,7 @@
             "time": 40,
             "description": "Éplucher les fruits et les couper en morceaux, les mettre dans une casserolle en ajoutant l'eau et le sucre vanillé. Laisser cuire 15 minutes en remuant régulièrement.",
             "appliance": "Casserole",
-            "ustensils": ["couteau", "économe"]
+            "ustensils": ["Couteau", "Économe"]
         },
         {
             "id": 13,
@@ -441,7 +441,7 @@
                     "unit": " c. à soupe"
                 },
                 {
-                    "ingredient": "huile d'olive",
+                    "ingredient": "Huile d'olive",
                     "quantity": 2,
                     "unit": " c. à soupe"
                 }
@@ -449,11 +449,11 @@
             "time": 40,
             "description": "Cuire les pommes de terre environs 30 minutes. Découper les échalottes finement. Durant la cuisson des pommes de terre. Préparez la vinaigrette avec l'huile d'olive et le vinaigre de cidre. Dans un saladier, mettre le mâche et ajouter les pommes de terre. Salez et poivrez selon votre convenance.",
             "appliance": "Casserole",
-            "ustensils": ["couteau", "saladier", "cuillère en bois"]
+            "ustensils": ["Couteau", "Saladier", "Cuillère en bois"]
         },
         {
             "id": 14,
-            "name": "Galette Bretonne Saucisse et Fromage à raclette",
+            "name": "Galette bretonne saucisse et fromage à raclette",
             "servings": 2,
             "ingredients": [{
                     "ingredient": "Saucisse bretonne ou de toulouse",
@@ -488,11 +488,11 @@
             "time": 100,
             "description": "Mélanger la farine avec les oeufs, faire fondre 25 grammes de beurre et ajouter la pâte. Ajouter le sel. Laisser reposer 1 heure. Faire les galettes et laisser refroidir. Faire chauffer les saucisses avec du beurre et l'oignon. Enrouler les saucisses dans les crêpes avec une partie du fromage. Mettre le reste du fromage à raclette par dessus les crêpes. Cuire au four pendant 20 minutes.",
             "appliance": "Four",
-            "ustensils": ["poelle à frire", "couteau"]
+            "ustensils": ["Poêle à frire", "Couteau"]
         },
         {
             "id": 15,
-            "name": "Crêpes Chocolat Banane",
+            "name": "Crêpes chocolat banane",
             "servings": 10,
             "ingredients": [{
                     "ingredient": "Oeuf",
@@ -526,7 +526,7 @@
             "time": 60,
             "description": "Mélanger dans un saladier la farine, les oeufs et le lait. Battre jusqu'à avoir une masse homogène. Pendant ce temps, faire fondre le beurre et ajoutez-en une partie dans la pâte. Faire fondre le chocolat avec le reste du beurre salé. Lors de la préparation des crêpes, ajouter le chocolat fondu et les bananes coupées en rondelles. Ajouter une touche de chantilly pour le plaisir des plus gourmands.",
             "appliance": "Poële à crêpe",
-            "ustensils": ["saladier", "louche", "cuillère en bois"]
+            "ustensils": ["Saladier", "Louche", "Cuillère en bois"]
         },
         {
             "id": 16,
@@ -553,7 +553,7 @@
                     "unit": " tige"
                 },
                 {
-                    "ingredient": "huile d'olives",
+                    "ingredient": "Huile d'olive",
                     "quantity": 2,
                     "unit": " c. à soupe"
                 }
@@ -561,7 +561,7 @@
             "time": 45,
             "description": "Faire cuire les pâtes. Si vous n'avez pas de penne, des coquillettes peuvent faire l'affaire. Découper les tomates en tranches ou en dés. Couper le basilic en petites morceaux et le mélanger aux tomates. Couper la mozzarella en tranches. Préchauffer le four à 200°C. Alterner entre couches de pattes et couches de tomates, terminer par une couche de pates et recouvrir de fromage. Cuire au four 30 minutes et régalez-vous ! Une recette simple qui fera plaisir au petits comme aux grands.",
             "appliance": "Four",
-            "ustensils": ["plat à gratin", "couteau", "râpe à fromage"]
+            "ustensils": ["Plat à gratin", "Couteau", "Râpe à fromage"]
         },
         {
             "id": 17,
@@ -592,7 +592,7 @@
             "time": 15,
             "description": "Couper les fraises en morceaux, découper la chair de la pastèque en retirant les pépins. Mettre le tout dans un blender. Ajouter un cuillière à soupe de jus de citron ainsi que les glaçons. Ajouter quelques feuilles de menthe pour plus de fraicheur. Mixez le tout, servez et dégustez.",
             "appliance": "Blender",
-            "ustensils": ["verres", "couteau", "presse citron"]
+            "ustensils": ["Verres", "Couteau", "Presse citron"]
         },
         {
             "id": 18,
@@ -616,11 +616,11 @@
             "time": 10,
             "description": "Couper une belle tranche qui servira de décoration pour les verres, couper le reste en cubes. Mettre le tout dans un blender avec la glace et le lait. Mixer et servir en décorant avec la tranche d'ananas préalablement coupée. C'est prêt !",
             "appliance": "Blender",
-            "ustensils": ["verres", "couteau"]
+            "ustensils": ["Verres", "Couteau"]
         },
         {
             "id": 19,
-            "name": "Shake Banane Kiwi",
+            "name": "Shake banane kiwi",
             "servings": 4,
             "ingredients": [{
                     "ingredient": "Kiwi",
@@ -648,11 +648,11 @@
             "time": 0,
             "description": "Coupez les fruits en morceaux, ajouter le jus de citron et le lait ainsi que le sucre glace. Mixer, ajouter des glaçons si le lait n'a pas été mis au frais.",
             "appliance": "Blender",
-            "ustensils": ["couteau", "verres", "presse citron"]
+            "ustensils": ["Couteau", "Verres", "Presse citron"]
         },
         {
             "id": 20,
-            "name": "Pates Carbonara",
+            "name": "Pates carbonara",
             "servings": 5,
             "ingredients": [{
                     "ingredient": "Tagliatelles",
@@ -675,7 +675,7 @@
                     "unit": "g"
                 },
                 {
-                    "ingredient": "huile d'olive",
+                    "ingredient": "Huile d'olive",
                     "quantity": 1,
                     "unit": " c. à soupe"
                 }
@@ -683,7 +683,7 @@
             "time": 30,
             "description": "Faire cuire les pates comme indiqué sur le paquet. Dorer les lardons dans une sauteuse avec l'huile d'olive. Ajouter la crême fraiche et baisser le feu au minimum. Quand les tagliatelles sont prêtes, les mettre dans la sauteuse et mélanger le tout en ajoutant le jaune d'oeuf. Servir et ajouter le parmesan râpé.",
             "appliance": "Sauteuse",
-            "ustensils": ["râpe à fromage", "cuillère en bois"]
+            "ustensils": ["Râpe à fromage", "Cuillère en bois"]
         },
         {
             "id": 21,
@@ -721,8 +721,8 @@
             ],
             "time": 30,
             "description": "Cuisiner la viande hachée dans une poêle à frire. Dans une autre faire cuire les oignons découpés en fins dés avec un peu de beurre. Ajouter du vin rouge. Mélanger les oigons avec la viande hachée. Faire cuire les pâtes le temps indiqué sur le paquet. Ajouter le coulis de tomates à la viande hachée. Une fois que les pâtes sont cuites, ajouter la crème fraiche à la viande hachée. Servir.",
-            "appliance": "Casserolle.",
-            "ustensils": ["Cuillère en bois", "louche", "couteau"]
+            "appliance": "Casserolle",
+            "ustensils": ["Cuillère en bois", "Louche", "Couteau"]
         },
         {
             "id": 22,
@@ -756,7 +756,7 @@
             "time": 30,
             "description": "Faire fondre le chocolat et le beurre au bain marie. Dans un saladier, battre les oeufs avec le sucre jusqu'à obtenir une texture mousseuse. Ajouter la farine ainsi que le mélange de beurre et de chocolat fondu. Beurrer le moule à gâteau. Préchauffer le four à 200°C et cuire pendant 15 minutes. C'est prêt ! Servir avec une boule de glace ou une crême dessert.",
             "appliance": "Four",
-            "ustensils": ["moule à gateaux", "fouet", "casserolle"]
+            "ustensils": ["Moule à gateau", "Fouet", "Casserolle"]
         },
         {
             "id": 23,
@@ -795,7 +795,7 @@
             "time": 60,
             "description": "Étaler la pâte dans un moule et la piquer. Parsemer de beurre. Faire chauffer les lardon dans une poêle. Battre les oeufs en ajoutant la crème fraîche et le lait. Ajouter les lardons, salez et poivrez à votre convenance. Verser l'ensemble sur la pâte. Cuire environ 50 minutes.",
             "appliance": "Four",
-            "ustensils": ["moule à gateaux", "rouleau à patisserie", "fouet"]
+            "ustensils": ["Moule à gateaux", "Rouleau à patisserie", "Fouet"]
         },
         {
             "id": 24,
@@ -833,7 +833,7 @@
             "time": 40,
             "description": "Découper le concombre et les tomates en dés, les mettre dans un saladier avec le maïs et les miettes de poisson, ajouter les pâtes. Ajouter la mayonnaise. Mélanger le tout et servir frais.",
             "appliance": "Saladier",
-            "ustensils": ["couteau", "cuillère en bois"]
+            "ustensils": ["Couteau", "Cuillère en bois"]
         },
         {
             "id": 25,
@@ -867,7 +867,7 @@
             "time": 30,
             "description": "Faire fondre le beurre et mélangez-le avec le sucre, puis ajouter l'oeuf. Ajouter la farine tout en mélangeant pour avoir une masse sans grumaux. Ajouter les pépites de chocolat. Faire de petites boules et les disposer sur une plaque de cuisson. Cuire à 180°C pendant 10 minutes.",
             "appliance": "Four",
-            "ustensils": ["fouet", "saladier", "plaque de cuisson"]
+            "ustensils": ["Fouet", "Saladier", "Plaque de cuisson"]
         },
         {
             "id": 26,
@@ -897,7 +897,7 @@
             "time": 25,
             "description": "Verser de l'huile dans une cocotte minute. Coupez les légumes et versez-les dans la cocotte. Cuire en remuant pendant 10 minutes. Mixer puis servir.",
             "appliance": "Mixer",
-            "ustensils": ["cocotte minute", "couteau"]
+            "ustensils": ["Cocotte minute", "Couteau"]
         },
         {
             "id": 27,
@@ -930,7 +930,7 @@
             "time": 15,
             "description": "Faire fondre l'oseille avec du beurre demi-sel, ajouter un litre d'eau. Ajouter les vermicelles et faites cuire. Une fois prêt, attendez 5 minutes puis ajoutez le jaune d'oeuf et la crême fraîche.",
             "appliance": "Casserolle",
-            "ustensils": ["couteau", "cuillère en bois"]
+            "ustensils": ["Couteau", "Cuillère en bois"]
         },
         {
             "id": 28,
@@ -964,11 +964,11 @@
             "time": 80,
             "description": "Émincer les blanc de poireaux et les cuire dans 25 grammes de beurre. Ajouter les pommes de terres coupées en morceaux. Ajouter l'eau et laisser mijoter pour 45 minutes. Cuire l'oseille avec le beurre restant puis incorporer le tout. Mixez, ajoutez la crème. Bon appetit !",
             "appliance": "Mixer",
-            "ustensils": ["casserolle", "couteau"]
+            "ustensils": ["Casserolle", "Couteau"]
         },
         {
             "id": 29,
-            "name": "Houmous Express",
+            "name": "Houmous express",
             "servings": 2,
             "ingredients": [{
                     "ingredient": "Pois chiches",
@@ -994,7 +994,7 @@
             "time": 30,
             "description": "Prendre les pois chiches, les mettre dans le mixer avec de l'huile d'olive. Ajouter le jus des 2 citrons et du paprika selon le gout.",
             "appliance": "Mixer",
-            "ustensils": ["cuillère en bois", "presse citron"]
+            "ustensils": ["Cuillère en bois", "Presse citron"]
         },
         {
             "id": 30,
@@ -1018,7 +1018,7 @@
             "time": 60,
             "description": "Mettre les ingrédients dans une cocotte. Ajouter de l'eau pour recouvrir l'ensemble, laisser cuire à petit feu pendant une heure puis passer au mixer. Salez, poivrez. C'est prêt.",
             "appliance": "Mixer",
-            "ustensils": ["casserolle", "cuillère en bois"]
+            "ustensils": ["Casserolle", "Cuillère en bois"]
         },
         {
             "id": 31,
@@ -1038,7 +1038,7 @@
                     "unit": "g"
                 },
                 {
-                    "ingredient": "Petits poids",
+                    "ingredient": "Petits pois",
                     "quantity": 100,
                     "unit": "g"
                 },
@@ -1051,11 +1051,11 @@
             "time": 60,
             "description": "Découper les carottes et les pommes de terre en cubes, puis faites-les revenir dans du beurre. À côté, faire dorer les lardons et ajouter un grand verre d'eau. Cuire les petit pois et les haricots verts. Ajouter le sel, le poivre, le thyms et le laurier.",
             "appliance": "Poële",
-            "ustensils": ["Couteau", "économe"]
+            "ustensils": ["Couteau", "Économe"]
         },
         {
             "id": 32,
-            "name": "Croque Monsieur à la dinde",
+            "name": "Croque monsieur à la dinde",
             "servings": 4,
             "ingredients": [{
                     "ingredient": "Pain de mie",
@@ -1091,7 +1091,7 @@
             "time": 20,
             "description": "Beurrer deux tranches de pain, ajouter une tranche d'émental, une tranche de blanc de dinde et une autre d'emmental. Dans un récipient, mélanger le gruyère râpé, le lait et la noix de muscade. Étaler le mélange sur les croque monsieur puis cuire au four pendant 10 minutes.",
             "appliance": "Four",
-            "ustensils": ["râpe à fromage", "cuillère à Soupe", "couteau"]
+            "ustensils": ["Râpe à fromage", "Cuillère à Soupe", "Couteau"]
         },
         {
             "id": 33,
@@ -1125,7 +1125,7 @@
             "time": 5,
             "description": "Mélanger le fromage blanc avec le citron. Ajouter un peu de sel et de poivre selon votre convenance. Faire dorer le pain de mie, puis étaler dessus le mélange. Ajouter une feuille de salade puis le saumon fumé. C'est prêt.",
             "appliance": "Four",
-            "ustensils": ["couteau", "cuillère en bois"]
+            "ustensils": ["Couteau", "Cuillère en bois"]
         },
         {
             "id": 34,
@@ -1152,7 +1152,7 @@
             "time": 25,
             "description": "Éplucher les patates douces et coupez-les en morceaux. Les faire cuire 20 minutes dans une casserolle d'eau bouillante. Passer au mixer en ajoutant la crème et l'huile d'olive. Saler, poivrer. Pressez l'orange et ajouter le jus à l'ensemble.",
             "appliance": "Mixer",
-            "ustensils": ["couteau", "économe", "cuillère en bois"]
+            "ustensils": ["Couteau", "Économe", "Cuillère en bois"]
         },
         {
             "id": 35,
@@ -1190,11 +1190,11 @@
             "time": 25,
             "description": "Éplucher les légumes, coupez-les en morceaux et cuire dans une cocotte minute pendant environs 15 minutes. Mixer, ajouter le beurre, la crème, le cumin et la noix de muscade.",
             "appliance": "Mixer",
-            "ustensils": ["cocotte minute", "couteau", "cuillère en bois"]
+            "ustensils": ["Cocotte minute", "Couteau", "Cuillère en bois"]
         },
         {
             "id": 36,
-            "name": "Lasagne Courgettes et Chèvre",
+            "name": "Lasagnes courgettes et chèvre",
             "servings": 2,
             "ingredients": [{
                     "ingredient": "Courgette",
@@ -1228,7 +1228,7 @@
             "time": 35,
             "description": "Raper les courgettes, les faire revenir pendant 15 minutes. Ajouter le fromage de chèvre frais. Préparer la sauce béchamel avec le lait et la maïzena. Saler, poivrer. Ajouter la noix de muscade selon votre convenance. Dans un plat, mettre successivement une couche de sauce, de lasagnes, puis des courgettes. Terminer par une couche de sauces et du gruyère. Cuire au four à 180°C pendant 20 à 25 minutes.",
             "appliance": "Four",
-            "ustensils": ["plat à gratin", "râpe à fromage", "fouet"]
+            "ustensils": ["Plat à gratin", "Râpe à fromage", "Fouet"]
         },
         {
             "id": 37,
@@ -1244,7 +1244,7 @@
                     "unit": "g"
                 },
                 {
-                    "ingredient": "Huile d'olives",
+                    "ingredient": "Huile d'olive",
                     "quantity": 25,
                     "unit": "cl"
                 },
@@ -1267,11 +1267,11 @@
             "time": 60,
             "description": "Couper les courgettes dans le sens de la longueur. Vider les courgettes dans un saladier à part. Faire revenir la chair des courgettes dans 25cl d'huile d'olive. Ajouter l'oignon puis la viande hachée. Mettre la farce dans les courgettes. Ajouter le coulis de tomates. Cuire au four pendant 30 minutes en ajoutant le fromage rapé quelques minutes avant la fin.",
             "appliance": "Four",
-            "ustensils": ["couteau", "cuillère en bois", "Poelle à frire"]
+            "ustensils": ["Couteau", "Cuillère en bois", "Poêle à frire"]
         },
         {
             "id": 38,
-            "name": "Pain Perdu",
+            "name": "Pain perdu",
             "servings": 4,
             "ingredients": [{
                     "ingredient": "Pain",
@@ -1296,7 +1296,7 @@
             "time": 20,
             "description": "Fouetter les oeufs, le sucre et le lait. Trempez-y les tranches de pain, puis faites-les cuire à 180°C pendant environs 10 minutes.",
             "appliance": "Four",
-            "ustensils": ["fouet", "bol", "Cuillère à Soupe"]
+            "ustensils": ["Fouet", "Bol", "Cuillère à Soupe"]
         },
         {
             "id": 39,
@@ -1325,7 +1325,7 @@
             "time": 40,
             "description": "Découper les pommes en dés. Mélanger dans un saladier la farine, le sucre et le beurre. Beurrez un moule et ajoutez-y les pommes. Placez-y par dessus la pâte obtenue, et laissez cuire pendant 20 minutes au four.",
             "appliance": "Four",
-            "ustensils": ["saladier", "couteau", "fouet"]
+            "ustensils": ["Saladier", "Couteau", "Fouet"]
         },
         {
             "id": 40,
@@ -1354,7 +1354,7 @@
             "time": 10,
             "description": "Dans une carafe mettre de l'eau, du jus de citron et du sucre. Bien mélanger, puis ajouter le bicarbonate. Ajouter des glaçon et une feuille de menthe pour la déco. Servez, c'est prêt !",
             "appliance": "Saladier",
-            "ustensils": ["cuillère en bois"]
+            "ustensils": ["Cuillère en bois"]
         },
         {
             "id": 41,
@@ -1378,11 +1378,11 @@
             "time": 20,
             "description": "Séparer les blancs d'oeufs. Faire fondre le chocolat au bain marie. Hors du feu, ajouter les jaunes d'oeufs et le sucre au chocolat. Battre les blancs en neige. Avec une spatule, mélangez délicatement les blancs au mélange de chocolat. Servir dans un plat ou dans des verres. Mettre au frais.",
             "appliance": "Casserolle",
-            "ustensils": ["fouet", "spatule", "verres"]
+            "ustensils": ["Fouet", "Spatule", "Verres"]
         },
         {
             "id": 42,
-            "name": "Charlotte au poires",
+            "name": "Charlotte aux poires",
             "servings": 3,
             "ingredients": [{
                     "ingredient": "Chocolat",
@@ -1406,7 +1406,7 @@
             "time": 60,
             "description": "Commencer par préparer une mousse au chocolat et laissez-la reposer deux heures. Quand la mousse est prête, mouiller les boudoirs dans le jus des poires. Disposer en alternant successivement mousse au chocolat, boudoirs et poires. À servir frais.",
             "appliance": "Moule à charlotte",
-            "ustensils": ["saladier", "couteau", "fouet"]
+            "ustensils": ["Saladier", "Couteau", "Fouet"]
         },
         {
             "id": 43,
@@ -1438,7 +1438,7 @@
             "time": 50,
             "description": "Préchauffer le four à 200°C. Étaler la pâte dans un moule, puis battre les oeufs avec le sucre. Ajouter le jus de citron et le beurre. Verser le tout sur la pâte. Cuire au four pendant 30 minutes. Bon appetit !",
             "appliance": "Four",
-            "ustensils": ["rouleau à patisserie", "moule à tarte", "presse citron"]
+            "ustensils": ["Rouleau à patisserie", "Moule à tarte", "Presse citron"]
         },
         {
             "id": 44,
@@ -1473,7 +1473,7 @@
             "time": 15,
             "description": "Mélanger la farine et le beurre fondu en versant progressivement le lait. Ajouter le sucre après cuisson. Mélanger et ajouter les morceaux de chocolat. Cuire environs 8 minutes tout en mélangeant avec une cuillère en bois, puis servez les crèmes dessert dans des verres. Bon appétit !",
             "appliance": "Casserolle",
-            "ustensils": ["cuillère en bois"]
+            "ustensils": ["Cuillère en bois"]
         },
         {
             "id": 45,
@@ -1502,7 +1502,7 @@
             "time": 30,
             "description": "Faire bouillir le lait, vous pouvez y ajouter de l'extrait de vanille. Battre les oeufs et le sucre, ajouter la farine puis le lait chaud. Cuire à feu doux pendant 5 à 10 minutes tout en remuant pour faire épaissir la pâte. C'est prêt !",
             "appliance": "Casserolle",
-            "ustensils": ["fouet", "saladier"]
+            "ustensils": ["Fouet", "Saladier"]
         },
         {
             "id": 46,
@@ -1541,7 +1541,7 @@
             "time": 60,
             "description": "Mélanger la farine avec le sucre et les oeufs, puis ajouter le sucre vanillé. Verser le lait progressivement. Ajouter un petit verre de rhum. Verser le tout dans un plat beurré, et placez-y les pruneaux. Cuire à 200°C pendant 45 minutes.",
             "appliance": "Four",
-            "ustensils": ["fouet", "moule", "verres"]
+            "ustensils": ["Fouet", "Moule", "Verres"]
         },
         {
             "id": 47,
@@ -1571,7 +1571,7 @@
             "time": 5,
             "description": "Mélanger le jus de citron avec le sucre et la mascarpone. Ajouter la crème fraiche. Mélanger le tout et mettre au congélateur pendant 1 heure. Bonne dégustation !",
             "appliance": "Saladier",
-            "ustensils": ["fouet", "verres", "cuillère en bois"]
+            "ustensils": ["Fouet", "Verres", "Cuillère en bois"]
         },
         {
             "id": 48,
@@ -1605,18 +1605,18 @@
             "time": 40,
             "description": "Étaler la pâte a pizza. Écraser les tomates pelées et les étaler sur la pâte. Ajouter les lardons et les champignons, puis parsemer de gruyère. Enfourner 20 minutes à 220°C. Buon appetito !",
             "appliance": "Four",
-            "ustensils": ["rouleau à patisserie", "râpe à fromage", "couteau"]
+            "ustensils": ["Rouleau à patisserie", "Râpe à fromage", "Couteau"]
         },
         {
             "id": 49,
             "name": "Smoothie tropical",
             "servings": 4,
             "ingredients": [{
-                    "ingredient": "Bananes",
+                    "ingredient": "Banane",
                     "quantity": 2
                 },
                 {
-                    "ingredient": "Kiwis",
+                    "ingredient": "Kiwi",
                     "quantity": 3
                 },
                 {
@@ -1637,7 +1637,7 @@
             "time": 0,
             "description": "Découper les fruits. Passez-les au blender jusqu'à obtenir une texture liquide, et laissez reposer au frais.",
             "appliance": "Blender",
-            "ustensils": ["couteau", "verres"]
+            "ustensils": ["Couteau", "Verres"]
         },
         {
             "id": 50,
@@ -1653,7 +1653,7 @@
                     "quantity": 6
                 },
                 {
-                    "ingredient": "Poudre d'amendes",
+                    "ingredient": "Poudre d'amande",
                     "quantity": 500,
                     "unit": "g"
                 },
@@ -1671,7 +1671,7 @@
             "time": 60,
             "description": "Mélanger le sucre, la poudre d'amande, le beurre et les oeufs. Étaler la moitié de la pâte feuilletée dans un moule à tarte. Garnir de frangipane et recouvrir avec le reste de la pâte feuilletée. Cuire au four pendant 30 minutes.",
             "appliance": "Four",
-            "ustensils": ["rouleau à patisserie", "fouet"]
+            "ustensils": ["Rouleau à patisserie", "Fouet"]
         }
     ]
 }
