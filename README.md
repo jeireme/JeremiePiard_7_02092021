@@ -6,7 +6,7 @@
 ![maquette lespetitsplats](https://puu.sh/IcH8b/36360e7007.jpg)
 
 # Exemple de navigation
-![navigation lespetitsplats](https://puu.sh/IcHfV/1a9b0361d0.gif)
+![navigation lespetitsplats](https://puu.sh/IcHzR/4a0d6b513f.gif)
 
 # Éléments fournis par l'entreprise
 - Maquette desktop ([Figma](https://www.figma.com/file/xqeE1ZKlHUWi2Efo8r73NK/UI-Design-Les-Petits-Plats-FR?node-id=0%3A1))
