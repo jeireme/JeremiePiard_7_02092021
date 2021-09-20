@@ -14,7 +14,7 @@
 - Base de données (JSON)
 
 # Contraintes techniques
-- Coder deux algorithmes de recherche, puis les comparer pour trouver le plus performant
+- Coder deux algorithmes de recherche, les comparer et trouver le plus performant
 - Créer une fiche d’investigation de fonctionnalité pour les deux algorithmes
 - Les filtres doivent se mettre à jour quand l'utilisateur effectue une recherche
 - Quand un filtre est sélectionné, il est affiché à l'écran sous forme de hashtag
