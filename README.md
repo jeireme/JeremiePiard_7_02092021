@@ -3,10 +3,10 @@
 - L'objectif était de créer un moteur de recherche pour un site de recettes de cuisine
 - Pour visiter le site internet, suivez ce [lien](https://jeireme.github.io/JeremiePiard_7_02092021)
 
-![maquette lespetitsplats](https://puu.sh/IcH8b/36360e7007.jpg)
+![maquette lespetitsplats](https://i.ibb.co/D4ZyGn5/preview.jpg)
 
 # Exemple de navigation
-![navigation lespetitsplats](https://puu.sh/IcHzR/4a0d6b513f.gif)
+![navigation lespetitsplats](https://i.ibb.co/59ftWYS/animation.gif)
 
 # Éléments fournis par l'entreprise
 - Maquette desktop ([Figma](https://www.figma.com/file/xqeE1ZKlHUWi2Efo8r73NK/UI-Design-Les-Petits-Plats-FR?node-id=0%3A1))
